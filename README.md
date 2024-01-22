@@ -1,8 +1,17 @@
 # Truant
 
-TODO: Delete this and the text below, and describe your gem
+Truant is a tool to aid in evaluating the effedctiveness of an EDR agent.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/truant`. To experiment with that code, run `bin/console` for an interactive prompt.
+Endpoint Detection and Response (EDR) agents gather and analyze telemetry
+data to aid in identifying and responding to security incidents and
+potential cyber threats. Such data can include:
+- Process creation
+- File creation
+- File creation, modification, and deletion
+- Network connections and data transmission
+
+This tool allows users to perform activities that will generate data and log
+it locally for comparison with the data gathered by your chosen EDR.
 
 ## Installation
 
@@ -28,7 +37,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/truant.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kylebowen/truant.
 
 ## License
 
